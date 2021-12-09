@@ -1,3 +1,11 @@
+##  Tyler Macek's Portfolio
+This is a compliation of some of my personal data analsts projects, including some code, images, and files.  
+
+### Project: Bellabeat Case Analysis (Google Data Analyst Certicate Project)
+**Background:** The goal of this project was to clean, analyze, and report on data in the public [Kaggle Dataset](https://www.kaggle.com/arashnic/fitbit).  This analysis would be presented to the head of markeing to direct future marketing directives for a single product line.   
+
+**Analysis:** Tools used for analysis were Excel and R Studio. Due to the small nature of the data set, Excel was the best tool for the job of cleaning.  The analysis was done in R for practice.  
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/tmacek2/Portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
