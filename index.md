@@ -5,7 +5,13 @@ This is a compliation of some of my personal data analsts projects, including so
 The goal of this project was to analyze data in the public [Kagle dataset](https://www.kaggle.com/arashnic/fitbit) and provide insights to the head of markeing for Bellabeat. 
 
 ### Data - Cleaning and Analysis
-The data in this project was in different csv files, to begin cleaning and organzing the data was necessary. 
+The data in this project was in different csv files, to begin cleaning and organzing the data was necessary. All of the cleaning was done in excel, combining all 18 files into a single master file.  
+
+The analysis was done in R Studio using tidyverse, ggplot2, and other libraries.  During the analysis, it was discoverd that most of the users did not record any of their sleep data, while the majority used the activity/sleep tracking functionality.  
+
+![Image](https://www.kaggleusercontent.com/kf/64858339/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..XgmtJ77flJrwgOPzQ2WaZg.EmTfGiN36K1eiQ-6j5WT1TE8FUDpVR4YRdRsNRqCE9zW1NZar0nMf1DhNldjQuU8vlS0SjF_9L88aIyfgSthpqEj6oHgqe52hd0I0AGtqkZyGeHrg3pzk-8fL1HVVFXM5Z_pu8n2fNoYI3sQYhSn4FzPmVtJl09FjqqIWpcDrvMvjlRr1bFUATbwZMn7YClo9FG0zbvcvHoTYcyJ32PdUPSjhJsVcDGgeqM6zHxC9g8ULqpQnbQtQdy0VtCDAsXldb-DVwEmltafl47IUiMbct1FKKQe_aSURDyf3Irtq7rRl2FLkKHuFXReBANOa9E7ZQuRsqfMVlOgvY8Bq-wujvw9RxNut_lzHqKj0gU8MRXx1-dXz8mU_j5iZjW48uLw3LfAPPhNepSo3F2uYUgU-NFLOfhV0l5Rsaoq6wlp79ZLymEoSpaXSYBUGtFSHiSgxUpLyleCVhN_hHmTk_yq8pma_DlxI6y53ymmgNw9MGYmck99u5xQTwRisu7YEmi9i_T6e7VkpYK0DQED7Y6bLncsX2LJk0brJMTighYHMvz2iBCu3OGlDXct-43oRwyvSLH3UDIAtPK2qQPOX2-J63TatJd2dDSQVzZKlwXC6qedL8uOa2Fb8Uy1JYbXygPSGlPTQanQLeueIxD2nTHLkFXGMfiR7SHg-xywKsKUffM.HK_lOa03Xg8dX1lHYJgmTg/__results___files/__results___8_0.png)
+
+### Conclusion and Recomendations
 
 ## Welcome to GitHub Pages
 
