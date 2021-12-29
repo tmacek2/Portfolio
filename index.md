@@ -1,8 +1,11 @@
-##  Tyler Macek's Portfolio
+#  Tyler Macek's Portfolio
 This is a compliation of some of my personal data analsts projects, including some code, images, and files.  
 
-###Project: Bellabeat Case Analysis (Google Data Analyst Certicate Project)
-The goal of this project was to analyze data in the public Kagle
+## Project: Bellabeat Case Analysis (Google Data Analyst Certicate Project)
+The goal of this project was to analyze data in the public [Kagle dataset](https://www.kaggle.com/arashnic/fitbit) and provide insights to the head of markeing for Bellabeat. 
+
+### Data - Cleaning and Analysis
+The data in this project was in different csv files, to begin cleaning and organzing the data was necessary. 
 
 ## Welcome to GitHub Pages
 
