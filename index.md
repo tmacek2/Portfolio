@@ -10,6 +10,16 @@ The data in this project was in different csv files, to begin cleaning and organ
 The analysis was done in R Studio using tidyverse, ggplot2, and other libraries.  During the analysis, it was discoverd that most of the users did not record any of their sleep data, while the majority used the activity/sleep tracking functionality.  
 
 ```R
+#sleep
+  ggplot(data = daily_activity_clean) + 
+    geom_point(mapping = aes(x= ActivityDate, y = Total_minutes_asleep)) +
+    facet_wrap(~Id)  + 
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+![Image](https://www.kaggleusercontent.com/kf/64858339/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..XgmtJ77flJrwgOPzQ2WaZg.EmTfGiN36K1eiQ-6j5WT1TE8FUDpVR4YRdRsNRqCE9zW1NZar0nMf1DhNldjQuU8vlS0SjF_9L88aIyfgSthpqEj6oHgqe52hd0I0AGtqkZyGeHrg3pzk-8fL1HVVFXM5Z_pu8n2fNoYI3sQYhSn4FzPmVtJl09FjqqIWpcDrvMvjlRr1bFUATbwZMn7YClo9FG0zbvcvHoTYcyJ32PdUPSjhJsVcDGgeqM6zHxC9g8ULqpQnbQtQdy0VtCDAsXldb-DVwEmltafl47IUiMbct1FKKQe_aSURDyf3Irtq7rRl2FLkKHuFXReBANOa9E7ZQuRsqfMVlOgvY8Bq-wujvw9RxNut_lzHqKj0gU8MRXx1-dXz8mU_j5iZjW48uLw3LfAPPhNepSo3F2uYUgU-NFLOfhV0l5Rsaoq6wlp79ZLymEoSpaXSYBUGtFSHiSgxUpLyleCVhN_hHmTk_yq8pma_DlxI6y53ymmgNw9MGYmck99u5xQTwRisu7YEmi9i_T6e7VkpYK0DQED7Y6bLncsX2LJk0brJMTighYHMvz2iBCu3OGlDXct-43oRwyvSLH3UDIAtPK2qQPOX2-J63TatJd2dDSQVzZKlwXC6qedL8uOa2Fb8Uy1JYbXygPSGlPTQanQLeueIxD2nTHLkFXGMfiR7SHg-xywKsKUffM.HK_lOa03Xg8dX1lHYJgmTg/__results___files/__results___7_0.png)
+
+```R
 #sleep and steps
   ggplot(data = daily_activity_clean) + 
     geom_point(mapping = aes(x= ActivityDate, y = Total_minutes_asleep), color= "Blue") +
