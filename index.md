@@ -39,4 +39,4 @@ The goal of this project was to analyze employee data and figure out which facto
 ### Data - Cleaning and Analysis
 The data was contained in a single csv file, which needed minimal cleaning.  The first pass of analysis was done in Excel using pivot tables, checking different factors against attrition.  This provided some ideas on what effected attrition, however this was not enough to draw any concrete resolutions.  Once the data was added into Tableau, the visualization started to show some clear trends.  
 
-<img src = "https://github.com/tmacek2/Portfolio/blob/gh-pages/Excel%20Pivot%20Table%20-%20Attrition.png?raw=true">
+<img src = "https://github.com/tmacek2/Portfolio/blob/gh-pages/Excel%20Pivot%20Table%20-%20Attrition.png?raw=true" width="400">
