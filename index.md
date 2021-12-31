@@ -37,6 +37,7 @@ A [Presentation](https://github.com/tmacek2/Portfolio/blob/gh-pages/Bellabeat%20
 The goal of this project was to analyze employee data and figure out which factors influenced employee attrition.  This [Dataset](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset) comes from Kaggle, supplied by IBM as a ficticious dataset.
 
 ### Data - Cleaning and Analysis
-The data was contained in a single csv file, which needed minimal cleaning.  The first pass of analysis was done in Excel using pivot tables, checking different factors against attrition.  This provided some ideas on what effected attrition, however this was not enough to draw any concrete resolutions.  Once the data was added into Tableau, the visualization started to show some clear trends.  
+The data was contained in a single csv file, which needed minimal cleaning.  The first pass of analysis was done in Excel using pivot tables, checking different factors against attrition.  This provided some ideas on what effected attrition, however this was not enough to draw any concrete resolutions.  Once the data was added into [Tableau](https://public.tableau.com/app/profile/tyler5859/viz/EmployeeAttritionbasedonYearsofServiceandDepartment/EmployeeAttrition), the visualization started to show some clear trends.  
 
 <img src = "https://github.com/tmacek2/Portfolio/blob/gh-pages/Excel%20Pivot%20Table%20-%20Attrition.png?raw=true" width="400">
+<img src = "https://github.com/tmacek2/Portfolio/blob/gh-pages/Tableau%20Dashboard%20-%20Attrition.png?raw=true" width = 400">
