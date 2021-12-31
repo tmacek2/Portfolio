@@ -1,6 +1,12 @@
 #  Tyler Macek's Portfolio
 This is a compliation of some of my personal data analsts projects, including some code, images, and files.  
 
+Included projects:
+- Bellabeat Wearable Data Case Analysis
+- IBM Employee Attrition
+
+
+
 ## Project: Bellabeat Case Analysis (Google Data Analyst Certicate Project)
 The goal of this project was to analyze data in the public [Kagle dataset](https://www.kaggle.com/arashnic/fitbit) and provide insights to the head of markeing for Bellabeat. 
 
