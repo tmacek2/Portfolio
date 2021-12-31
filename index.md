@@ -40,4 +40,9 @@ The goal of this project was to analyze employee data and figure out which facto
 The data was contained in a single csv file, which needed minimal cleaning.  The first pass of analysis was done in Excel using pivot tables, checking different factors against attrition.  This provided some ideas on what effected attrition, however this was not enough to draw any concrete resolutions.  Once the data was added into [Tableau](https://public.tableau.com/app/profile/tyler5859/viz/EmployeeAttritionbasedonYearsofServiceandDepartment/EmployeeAttrition), the visualization started to show some clear trends.  
 
 <img src = "https://github.com/tmacek2/Portfolio/blob/gh-pages/Excel%20Pivot%20Table%20-%20Attrition.png?raw=true" width="400">
-<img src = "https://github.com/tmacek2/Portfolio/blob/gh-pages/Tableau%20Dashboard%20-%20Attrition.png?raw=true" width = 400">
+<img src = "https://github.com/tmacek2/Portfolio/blob/gh-pages/Tableau%20Dashboard%20-%20Attrition.png?raw=true" width = "400">
+                                                                                                                             
+### Conclusion and recommendations
+Based on the tableau dashboard visualization, employees in R&D who are recently promoted are more likely to leave the company.  This occurs after a year with the company, when the employee is promoted.  The reason for this could be promoting the wrong fit, the employee was not fully aware of the role's responsibilities/duties, or burning out. The second most likely department for this is sales.  
+
+With this knowledge, one possible solution would be to rework the promotion process, ensuring employees know the process and make sure they understand the role they are applying for.  Another solution is to work on the interviewing process, making sure to teach managers how to more effectively tell if someone is a good fit for the role.  
