@@ -102,4 +102,19 @@ SELECT ltable.description AS left, rtable.description AS right
 DROP TABLE left;
 DROP TABLE right;
 
+*/ Working with three tables, Customer, Item, and Sale to Show the item name, description, quantity, and price purchased by each customer
+SELECT c.name AS Customer, c.zip AS Zip Code, i.name AS Item Name, i.description AS Description, s.quantity AS Quantity Purchased, s.price AS Price
+  FROM sale AS s
+  JOIN item AS i ON s.item_id = i.id
+  JOIN customer AS c ON s.customer_id = c.id
+  ORDER BY Customer, Item
+;
+
+*/ Working with the same tables, but using a LEFT JOIN instead to show all customers, even where there are no purcahses
+SELECT c.name AS Customer, c.zip AS Zip Code, i.name AS Item Name, i.description AS Description, s.quantity AS Quantity Purchased, s.price AS Price
+  FROM customer AS c
+  LEFT JOIN sale AS s ON s.customer_id = c.id
+  LEFT JOIN item AS i ON s.item_id = i.id
+  ORDER BY Customer, Item
+
 ```
