@@ -39,7 +39,7 @@ The analysis was done in R Studio using tidyverse, ggplot2, and other libraries.
 A [Presentation](https://github.com/tmacek2/Portfolio/blob/gh-pages/Bellabeat%20Case%20Study.pptx) was created to show to the head of marketing of Bellabeat.  The conclusion on the presentation (presenter notes are present) is that there was not enough data in order to complete the analysis.  My recommendation was to create a survey for Leaf users to determine which features they use the most and which are least utilized.  From there with that data, a better marketing strategy recommendation could be made.  
 
 
-## Project: Employee Attrition
+## Project: Employee Attrition (Practice)
 The goal of this project was to analyze employee data and figure out which factors influenced employee attrition.  This [Dataset](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset) comes from Kaggle, supplied by IBM as a ficticious dataset.
 
 ### Data - Cleaning and Analysis
