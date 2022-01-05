@@ -5,6 +5,8 @@ Included projects:
 - Bellabeat Wearable Data Case Analysis
 - IBM Employee Attrition
 
+Code Samples:
+- SQL
 
 
 ## Project: Bellabeat Case Analysis (Google Data Analyst Certicate Project)
@@ -52,3 +54,14 @@ The data was contained in a single csv file, which needed minimal cleaning.  The
 Based on the tableau dashboard visualization, employees in R&D who are recently promoted are more likely to leave the company.  This occurs after a year with the company, when the employee is promoted.  The reason for this could be promoting the wrong fit, the employee was not fully aware of the role's responsibilities/duties, or burning out. The second most likely department for this is sales.  
 
 With this knowledge, one possible solution would be to rework the promotion process, ensuring employees know the process and make sure they understand the role they are applying for.  Another solution is to work on the interviewing process, making sure to teach managers how to more effectively tell if someone is a good fit for the role.  
+
+## Code Samples - SQL
+
+``` SQL
+/* Creating a Table
+CREATE TABLE left (
+id Integer,
+description TEXT
+)
+
+```
