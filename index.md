@@ -92,4 +92,14 @@ INSERT INTO right VALUES ( 11, 'right 13' );
 INSERT INTO right VALUES ( 11, 'right 14' );
 END TRANSACTION;
 
+/* Using JOIN on description for both tables
+SELECT ltable.description AS left, rtable.description AS right
+  FROM left as ltable
+  JOIN right AS rtable ON ltable.id - rtable.id
+  ;
+  
+*/ Dropping un-needed tables
+DROP TABLE left;
+DROP TABLE right;
+
 ```
