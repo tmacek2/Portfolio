@@ -110,7 +110,7 @@ SELECT c.name AS Customer, c.zip AS Zip Code, i.name AS Item Name, i.description
   ORDER BY Customer, Item
 ;
 
-*/ Working with the same tables, but using a LEFT JOIN instead to show all customers, even where there are no purcahses
+*/ Working with the same tables, but using a LEFT JOIN tos show all customers with or without sales
 SELECT c.name AS Customer, c.zip AS Zip Code, i.name AS Item Name, i.description AS Description, s.quantity AS Quantity Purchased, s.price AS Price
   FROM customer AS c
   LEFT JOIN sale AS s ON s.customer_id = c.id
