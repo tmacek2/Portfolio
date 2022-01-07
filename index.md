@@ -121,5 +121,4 @@ SELECT c.name AS Customer, c.zip AS Zip Code, i.name AS Item Name, i.description
 SELECT COUNT(DISTINCT(customers) AS Number of Customers
 FROM customers;
 
-
 ```
