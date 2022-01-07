@@ -117,4 +117,9 @@ SELECT c.name AS Customer, c.zip AS Zip Code, i.name AS Item Name, i.description
   LEFT JOIN item AS i ON s.item_id = i.id
   ORDER BY Customer, Item
 
+*/ Counting all of the unique customers in the database
+SELECT COUNT(DISTINCT(customers) AS Number of Customers
+FROM customers;
+
+
 ```
